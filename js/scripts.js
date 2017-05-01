@@ -24,6 +24,7 @@ $(function () {
     $(".result").append("<li>" + line + "</li>");
     });
 
+    $("#result").hide();
     $("#result").show();
   });
 });

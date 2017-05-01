@@ -12,14 +12,24 @@
     <title>Word Play</title>
   </head>
   <body>
-    <div class="containter">
-      <form>
-        <div class="form-group">
-          <label><h2>Block of Text</h2></label>
-          <textarea id="sent" type="text" class="form-control" rows="5"></textarea>
-        </div>
 
-        <center><button id="btn" type="button" name="button" class="btn-success btn-lg">Click</button></center>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Word Count</h1>
+          <p>
+            Enter a block of text to see how many repetitions there are of each word in the text!
+          </p>
+        </div>
+      </div>
+      <form>
+        <div class="container">
+          <div class="form-group">
+            <label><h2>Block of Text</h2></label>
+            <textarea id="sent" type="text" class="form-control" rows="5"></textarea>
+          </div>
+
+          <center><button id="btn" type="button" name="button" class="btn-success btn-lg">Submit</button></center>
+        </div>
       </form>
 
       <div id="result">
